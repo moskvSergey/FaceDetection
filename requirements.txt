@@ -1,0 +1,11 @@
+py-cpuinfo
+lapx
+scipy
+dill
+pyyaml
+matplotlib
+psutil
+torch
+tf-keras==2.16.0
+tf-keras-nightly
+deepface
