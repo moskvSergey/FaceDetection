@@ -9,7 +9,7 @@ def detect_someone():
             return None
         else:
             print("Лицо обнаружено:")
-            print(recognition)
+            print(recognition[0]['identity'])
             return recognition
     except Exception as e:
         print(f"Произошла ошибка при выполнении поиска: {e}")
